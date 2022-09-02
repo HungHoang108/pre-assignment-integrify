@@ -1,26 +1,23 @@
 import { Routes, Route } from 'react-router-dom';
-// import { useContext } from 'react';
 
 import Header from './components/header/header.component';
 import ContactCard from './components/contact-card/contact-card.component';
 import UserDetails from './components/user-details/user-details.component';
-import Footer from './components/footer/footer.component';
-// import { UserContext } from './context/user-id.context';
+import Home from './components/home/home.component';
 
 
 function App() {
-  // const {userId} = useContext(UserContext)
-  // console.log(userId)
+
   return (
     <div className="App">
       
       <Routes>
         <Route path='/' element={<Header />}>
-          <Route index element={<ContactCard />} />
+          <Route index element={<Home />} />
           <Route path='/:id' element={<UserDetails />} />
         </Route>
       </Routes>
-      <Footer/>
+ 
     </div>
   );
 }

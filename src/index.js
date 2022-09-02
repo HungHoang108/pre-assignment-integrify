@@ -6,9 +6,7 @@ import {BrowserRouter as Router} from "react-router-dom";
 import App from './App';
 import UserDetailProvider from './context/user-detail.context';
 
-import './index.css';
-
-
+import './index.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

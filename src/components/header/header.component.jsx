@@ -5,8 +5,8 @@ import './header.styles.scss'
 const Header = () => {
   return (
     <Fragment>
-        <div>
-            <Link to='/'>Back to Homepage</Link>
+        <div className='header'>
+            <Link className='header-home' to='/'>Home</Link>
             
         </div>
         <Outlet/>

@@ -1,0 +1,16 @@
+.user-details-container {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+
+    
+
+    .user-details {
+        font-size: 2rem;
+        padding: 3rem;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        .user-details-address {
+            margin-left: 10px;
+        }
+    }
+}
